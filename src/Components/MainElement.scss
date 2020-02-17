@@ -1,0 +1,38 @@
+.Main_body_in {
+  width: 25%;
+  height: 383px;
+  padding: 15px;
+  // outline: 1px solid darkgreen;
+  display: flex;
+  flex-wrap: wrap;
+  .Main_header {
+    width: 255px;
+    height: 182px;
+    outline: 1px solid;
+    // padding: 14px 10px;
+    border-radius: 4px;
+    padding-bottom: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+  }
+  .Main_text {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 10px;
+    .Main_text_top {
+      height: 25px;
+      font-size: 18px;
+    }
+    .Main_text_body {
+      margin: 8px 0px 0px;
+      font-size: 14px;
+    }
+    .Main_text_end {
+      margin: 10px 0px 0px;
+      font-size: 13px;
+    }
+  }
+}

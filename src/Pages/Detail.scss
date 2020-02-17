@@ -1,0 +1,215 @@
+h2 {
+  margin: 0 0 10px;
+}
+
+*button {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+*img {
+  max-width: 100%;
+  height: auto;
+}
+
+.detail_body {
+  margin: 0 auto;
+  padding: 20px 0 80px;
+  display: flex;
+  justify-content: center;
+  border-color: indigo 1px solid;
+  @media (min-width: 1200px) {
+    width: 87.72%;
+    max-width: 1060px;
+    margin: 0 auto;
+  }
+  .db_leftwrap {
+    width: 698px;
+
+    .db_left {
+      padding-bottom: 10px;
+      width: 100%;
+      height: 489px;
+      outline: 1px solid gray;
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-color: #fbfbfb;
+      background-size: cover;
+      float: left;
+      margin-bottom: 20px;
+      background-image: url("https://static.wanted.co.kr/images/company/5936/df7si5v1b4fojmjs__1080_790.jpg");
+    }
+    .detail_article {
+      margin: 40px 0 30px;
+
+      .detail_box {
+        .detail_text {
+          display: inline-block;
+          margin-right: 6px;
+          margin-bottom: 10px;
+          padding: 9px 14px;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 1;
+          color: #333;
+          background-color: #f3f5f8;
+          border-radius: 25px;
+        }
+
+        .detail_article_body {
+          color: #333;
+          font-weight: lighter;
+          // word-wrap: break-word;
+          // white-space: pre-wrap;
+          font-size: 16px;
+          line-height: 1.75;
+          margin-bottom: 80px;
+        }
+      }
+
+      .follower {
+        width: 700px;
+        height: 90px;
+        border: 1px solid pink;
+        .detai_footer {
+          height: 90px;
+          .detail_footer_left {
+            width: 50px;
+            padding: 20px;
+            margin-top: 80px;
+          }
+          .detail_footer-right {
+            width: 80px;
+            height: 40px;
+            padding: 10px 30px;
+          }
+        }
+      }
+    }
+    .map_in {
+      // display: inline-block;
+      font-size: 16px;
+      font-weight: 600;
+      vertical-align: text-top;
+      border-top: 1px solid #e1e2e3;
+      outline: 1px solid rebeccapurple;
+      height: 300px;
+
+      .outline {
+        border-top: 1px solid #e1e2e3;
+        padding-top: 10px;
+        .map_left {
+          color: #999;
+          width: 80px;
+        }
+        .map_right {
+          color: #333;
+          width: calc(100% - 80px);
+        }
+      }
+      .maping {
+        width: 700px;
+        height: 254px;
+        background: #f2f2f2;
+        outline: 1px solid green;
+        overflow: hidden;
+      }
+    }
+  }
+  .db_right {
+    @media (min-width: 1200px) {
+      right: 0;
+      top: 70px;
+      width: 340px;
+    }
+
+    .db_rightwrap {
+      outline: 1px solid gray;
+      padding: 15px;
+      margin-left: 20px;
+
+      .db_right_text {
+        display: flex;
+        flex-direction: column;
+        font-size: 15px;
+        margin-top: -12px;
+
+        .db_text_top {
+          margin: -10px;
+          display: flex;
+          justify-content: space-around;
+          font-size: 14px;
+          color: black;
+        }
+
+        .sharing {
+          margin-right: 10px;
+          margin: 20px 0;
+          width: 100%;
+          height: 50px;
+          border: 1px solid #258bf7;
+          font-size: 16px;
+          font-weight: 600;
+          text-align: center;
+          color: #258bf7;
+        }
+        .like {
+          padding: 20px 0 0;
+          height: 55px;
+          outline: 1px solid gray;
+        }
+      }
+    }
+    .apply {
+      margin-left: 19px;
+      width: 95%;
+      height: 50px;
+      border-radius: 3px;
+      background-color: #21c621;
+      font-size: 16px;
+      font-weight: 600;
+      letter-spacing: normal;
+      color: #fff;
+      text-align: center;
+      margin-top: 20px;
+    }
+  }
+}
+.footer {
+  width: 100%;
+  height: 70px;
+  margin: 0 auto;
+  position: fixed;
+  bottom: 0;
+  background-color: #258bf7;
+  transition: 5s;
+  z-index: 2;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  padding: 0 20ox;
+  .footer_wrap {
+    max-width: 1060px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    .more {
+      cursor: pointer;
+      text-transform: none;
+      width: 118px;
+      height: 40px;
+      line-height: 40px;
+      border-radius: 5px;
+      background-color: #fff;
+      color: #258bf7;
+      font-size: 15px;
+      font-weight: 600;
+      text-align: center;
+      margin-left: 540px;
+    }
+  }
+}
