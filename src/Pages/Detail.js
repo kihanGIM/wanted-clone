@@ -136,14 +136,14 @@ class Detail extends React.Component {
               
               <section className="follower">
               <div className="detail_footer">
-                 <div className="detai_footer_left">
+                 <div className="detail_footer_left">
 
-                   <h4>데이브시스터즈(Devsisters)</h4>
-                   <h4>IT, 컨텐츠 </h4>
+                   <h4>아프리카TV</h4> 
+                   <h4 className="it">IT, 컨텐츠</h4> 
                  </div>
-                 <button className="detai_footer_right">
+                 <div className="detail_footer_right">
                    팔로우
-                 </button>
+                 </div>
 
                </div>
 
@@ -151,9 +151,9 @@ class Detail extends React.Component {
 
               </section>
 
-              <div className="recommend">
+              {/* <div className="recommend">
                 원티드 추천공고
-              </div>
+              </div> */}
                          
 
              </div>
@@ -165,7 +165,7 @@ class Detail extends React.Component {
                   <div className="db_text_left"> <h4>추천인</h4><p>500,000원</p></div>
                  <div className="db_text_right">  <h4>지원자</h4><p>500,000원</p></div> </div>
               
-               <button className="sharing"> 공유하기</button>
+               <div className="sharing"> 공유하기</div>
 
                </div>
                  <div className="like"> 좋아요</div>

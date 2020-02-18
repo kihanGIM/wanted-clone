@@ -1,6 +1,12 @@
 import React,{Component} from 'react';
+// import React,{useState} from 'react';
 import "./NavBody.scss";
 import CategoryTab from './CategoryTab';
+// import i1 from "../Images/1.jpg"
+// import i2 from "../Images/2.jpg"
+// import i3 from "../Images/3.jpg"
+// import i4 from "../Images/4.jpg"
+// import i5 from "../Images/5.jpg"
 
 const namesArr = [
     {id:1, text:'F&B',},
@@ -23,8 +29,52 @@ const namesArr = [
     {id:18, text:'투자, 분석, 부동산'}
 ]
 
+  
+//  function NavBody(){
+//      let sliderArr = [ 
+//      <CategoryTab src ={i1}/>,
+//     < CategoryTab src ={i2}/>,
+//     < CategoryTab src ={i3}/>,
+//     < CategoryTab src ={i4}/>,
+//     < CategoryTab src ={i5}/>
+
+//          ] ;
+//      const [x,setX]=useState(0);
+//      const goLeft =()=>{
+//          console.log(x);
+//         x === 0? setX (-100 * (sliderArr.length-1)): setX (x +100);
+//      };
+//      const goRight =()=>{
+//         x === -100*(sliderArr.length-1)? setX(0): setX (x -100);
+//      };
+ 
+
+//  return (
+//      <div className="slider">
+
+//         { sliderArr.map((item,index) => {
+//             return(
+//                 <div key ={index} className="slide" style={{ transform:translateX(`${x})`}}>
+//                 {item} 
+//                 </div>
+//             );
+            
+//         } ) }
+//         <button id ="goLeft" onClick={goLeft}>
+//            <i class="fas fa-chevron-left"></i>
+//            </button>
+//         <button id ="goRight" onClick ={goRight}> 
+//            <i class="fas fa-chevron-right"></i>
+//              </button>
+//      </div>
+//  );
+//         }
+
+
+
 
 const nameList = namesArr.map((name) =>{
+
      return(
     <CategoryTab text={name.text}/>
   )
