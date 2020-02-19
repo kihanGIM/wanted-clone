@@ -1,0 +1,36 @@
+h2 {
+  color: black;
+}
+
+.overlay_wrap {
+  position: relative;
+  max-height: 610px;
+  background-color: #fff;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  .overlay {
+    margin: 0 auto;
+    max-width: 1090px;
+    height: 580px;
+    .overlay_in {
+      float: left;
+      width: 14.8%;
+      height: 270px;
+      padding: 15px 23px 0 0;
+      text-align: left;
+      font-size: 11px;
+      position: relative;
+      color: gray;
+      margin: 10px;
+
+      .arrow {
+        position: absolute;
+        top: 12px;
+        right: 35px;
+        font-size: 20px;
+        columns: #999;
+        opacity: 0.6;
+      }
+    }
+  }
+}

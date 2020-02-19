@@ -24,36 +24,36 @@ import i18 from "../Images/18.jpg";
 function NavBody() {
   const namesArr = [
     { id: 1, text: "F&B", src: i1 },
-    { id: 2, text: "개발",src:i2},
-    { id: 3, text: "건설, 시설",src:i3 },
-    { id: 4, text: "게임, 제작" ,src:i4},
-    { id: 5, text: "경영, 비지니스",src:i5 },
-    { id: 6, text: "고객서비스, 리테일",src:i6 },
-    { id: 7, text: "디자인",src:i7 },
-    { id: 8, text: "마케팅, 광고" ,src:i8},
-    { id: 9, text: "물류, 무역",src:i9 },
-    { id: 10, text: "미디어",src:i10 },
-    { id: 11, text: "법률, 법집행기관",src:i11 },
-    { id: 12, text: "엔지니어링, 설계",src:i12 },
-    { id: 13, text: "영업" , src:i13},
-    { id: 14, text: "의료, 제약, 바이오",src:i14 },
-    { id: 15, text: "인사, 교육",src:i15 },
-    { id: 16, text: "정부, 비영리",src:i16 },
-    { id: 17, text: "제조, 생산",src:i17 },
-    { id: 18, text: "투자, 분석, 부동산",src:i18 }
+    { id: 2, text: "개발", src: i2 },
+    { id: 3, text: "건설, 시설", src: i3 },
+    { id: 4, text: "게임, 제작", src: i4 },
+    { id: 5, text: "경영, 비지니스", src: i5 },
+    { id: 6, text: "고객서비스, 리테일", src: i6 },
+    { id: 7, text: "디자인", src: i7 },
+    { id: 8, text: "마케팅, 광고", src: i8 },
+    { id: 9, text: "물류, 무역", src: i9 },
+    { id: 10, text: "미디어", src: i10 },
+    { id: 11, text: "법률, 법집행기관", src: i11 },
+    { id: 12, text: "엔지니어링, 설계", src: i12 },
+    { id: 13, text: "영업", src: i13 },
+    { id: 14, text: "의료, 제약, 바이오", src: i14 },
+    { id: 15, text: "인사, 교육", src: i15 },
+    { id: 16, text: "정부, 비영리", src: i16 },
+    { id: 17, text: "제조, 생산", src: i17 },
+    { id: 18, text: "투자, 분석, 부동산", src: i18 }
   ];
 
-//   const nameList = namesArr.map(name => {
-//     return <CategoryTab text={name.text} />;
-//   });
+  //   const nameList = namesArr.map(name => {
+  //     return <CategoryTab text={name.text} />;
+  //   });
 
-//   let sliderArr = [
-//     <CategoryTab src={i1} />,
-//     <CategoryTab src={i2} />,
-//     <CategoryTab src={i3} />,
-//     <CategoryTab src={i4} />,
-//     <CategoryTab src={i5} />
-//   ];
+  //   let sliderArr = [
+  //     <CategoryTab src={i1} />,
+  //     <CategoryTab src={i2} />,
+  //     <CategoryTab src={i3} />,
+  //     <CategoryTab src={i4} />,
+  //     <CategoryTab src={i5} />
+  //   ];
   const [x, setX] = useState(0);
 
   const goLeft = () => {
@@ -73,7 +73,7 @@ function NavBody() {
             className="slide"
             style={{ transform: `translateX(${x}%)` }}
           >
-          <CategoryTab src={item.src} text={item.text} />
+            <CategoryTab src={item.src} text={item.text} />
           </div>
         );
       })}

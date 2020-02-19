@@ -1,0 +1,73 @@
+.tagwrap {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  max-height: 230px;
+  width: 1060px;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  z-index: 2;
+  background-color: white;
+  .tag_top {
+    @media (min-width: 1200px) {
+    }
+    margin: 0 auto;
+    width: 87.72%;
+    position: relative;
+    height: 50px;
+    max-width: 1060px;
+  }
+
+  .tagbody_wrap {
+    left: 0;
+    right: 0;
+    background-color: #fff;
+
+    .tagbody {
+      position: relative;
+      margin: 0 auto;
+      padding: 40px 0 0;
+      max-width: 1060px;
+
+      .show {
+        display: inline-block;
+        font-size: 16px;
+        line-height: 1;
+        font-weight: 400;
+        color: #999;
+        margin-right: 800px;
+      }
+      .home {
+        // float: right;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 1;
+        color: #268bf7 !important;
+      }
+      .tag_box {
+        padding: 20px 0 25px;
+        display: flex;
+        justify-content: start;
+
+        .tag_text {
+          display: inline-block;
+          height: 50px;
+          line-height: 50px;
+          font-size: 15px;
+          font-weight: 400;
+          color: #333;
+          border-radius: 3px;
+          margin-left: 10px;
+          margin-bottom: 10px;
+          padding: 0 26px;
+          background-color: #f3f5f8;
+          border-radius: 25px;
+          .teg_text_in {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
