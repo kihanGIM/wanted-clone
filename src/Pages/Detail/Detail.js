@@ -1,8 +1,8 @@
 import React from 'react';
 import './Detail.scss';
 // import search from "../Images/search.png";
-import NavTop from '../Components/NavTop';
-import Map from '../Components/Map';
+import NavTop from '../../Components/NavTop';
+import Map from '../Detail/Map';
 // import Mainbody from"../Components/MainBody";
 
 class Detail extends React.Component {

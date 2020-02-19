@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Main from "./Pages/Main";
-import detail from "./Pages/Detail";
+import Main from "./Pages/Main/Main";
+import detail from "./Pages/Detail/Detail";
 
 class Routes extends React.Component {
     render() {

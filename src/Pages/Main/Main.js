@@ -1,8 +1,8 @@
 import React from 'react';
 import "./Main.scss";
-import search from "../Images/search.png";
-import NavBody from"../Components/NavBody";
-import Mainbody from"../Components/MainBody";
+import search from "../../Images/search.png";
+import NavBody from"../../Components/NavBody";
+import Mainbody from"../../Components/MainBody";
 // import navTop from"../Components/navTop";
 
 class Main extends React.Component {
