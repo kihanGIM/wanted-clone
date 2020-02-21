@@ -1,10 +1,10 @@
 import React from "react";
 import "./Main.scss";
-import search from "../../Images/search.png";
-import NavBody from "../../Components/NavBody";
+// import search from "../../Images/search.png";
+import NavBody from "./NavBody";
 import Mainbody from "../../Components/MainBody";
-// import navTop from"../Components/navTop";
-import OverLay from "../../Components/Overlay";
+// import OverLay from "../../Components/Overlay";
+import NavTop from "../../Components/NavTop";
 
 class Main extends React.Component {
   constructor(props) {
@@ -24,24 +24,22 @@ class Main extends React.Component {
     return (
       <div className="One">
         <div className="Nav">
-          <div className="Nav_topwrap">
+          <NavTop />
+          {/* <div className="Nav_topwrap">
             {this.state.search && (
-              <div className="tc"><OverLay/></div>
+              <div className="tc">
+                <OverLay />
+              </div>
             )}
             <div className="Nav_top">
               <div className="Nav_topin">
-                <a classname="wanted" href="https://www.wanted.co.kr/newintro">
+                <a className="wanted" href="https://www.wanted.co.kr/newintro">
                   Wanted
                 </a>
                 <ul className="topin_center">
-                  {/* <div className={this.state.search ? "search_on" : "sherch_off"}> */}
                   <li className="tc_text_one" onClick={this.SearchandleClick}>
                     탐색
                   </li>
-                  {/* </div>  */}
-                  {/* <li className="tc_text_one">탐색 */}
-
-                  {/* </li> */}
 
                   <li className="tc_text">직군별 연봉</li>
                   <li className="tc_text">이력서</li>
@@ -60,15 +58,11 @@ class Main extends React.Component {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="Nav_bodywrap">
             <div className="Nav_body">
               <ul className="Nav_body_top">
-                <li className="Nbtt">
-                  {" "}
-                  전체
-                  {/* <a href="https://www.wanted.co.kr/wdlist?country=kr&job_sort=job.latest_order&years=-1&locations=all"></a> */}
-                </li>
+                <li className="Nbtt"> 전체</li>
               </ul>
               <div className="Nav_body_bottom">
                 <NavBody />

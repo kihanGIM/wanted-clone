@@ -13,6 +13,7 @@
       z-index: 100;
       width: 100%;
       position: relative;
+      margin: 0 auto;
       .tc {
         position: absolute;
         left: 0;
@@ -25,6 +26,13 @@
         z-index: 2;
         background-color: white;
         cursor: pointer;
+      }
+      .Search_tag {
+        position: absolute;
+        left: 0;
+        top: 0;
+        max-height: 230px;
+        width: 1060px;
       }
       .Nav_top {
         text-align: center;
@@ -42,7 +50,6 @@
             text-decoration: none;
           }
           .topin_center {
-            // position: relative;
             list-style: none;
             display: flex;
             width: 665px;
@@ -57,31 +64,6 @@
             .tc_text_one {
               padding: 17px 13px;
               padding-top: 2px;
-              // .tc {
-              //   display: flex;
-              //   justify-content: start;
-              //   flex-direction: column;
-              //   position: absolute;
-              //   left: 0;
-              //   top: 100px;
-              //   height: 300px;
-              //   border: 1px solid orange;
-
-              //   //   &:hover {
-              //   //     z-index: 2;
-              //   //     position: absolute;
-              //   //     width: 950px;
-              //   //     height: 652px;
-              //   //     top: 40px;
-              //   //     left: 0;
-              //   //     outline: solid 1px black;
-              //   //     background-color: darkseagreen;
-              //   //   }
-              // }
-
-              // .search_0ff {
-              //   display: none;
-              // }
             }
             .tc_text {
               padding: 17px 13px;
@@ -97,6 +79,7 @@
             font-size: 14px;
             width: 320.66px;
             right: 0;
+
             .tag {
               widows: 100%;
               height: 230px;
@@ -104,19 +87,16 @@
             .Search {
               margin-left: 4px;
               position: relative;
-              .Search_tag {
-                position: absolute;
-                right: 0;
-                top: 0;
-                max-height: 230px;
-                width: 1060px;
-              }
+              width: 100%;
+
               .Search_for {
                 width: 24px;
                 height: 22px;
                 border-right: solid 1px;
-                margin-right: 4px;
+                margin-right: 12px;
                 margin-top: 6px;
+                padding-left: 3px;
+                padding-top: 2px;
               }
             }
             .tr_left {
