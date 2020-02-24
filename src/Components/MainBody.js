@@ -1,5 +1,5 @@
 import React from "react";
-import "./MainBody.scss";
+
 import MainElement from "./MainElement";
 
 class MainBody extends React.Component {

@@ -5,7 +5,7 @@ class Tag extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      tag: false
+      tag: true
     };
   }
   TaghandleClick = () => {
@@ -42,9 +42,9 @@ class Tag extends Component {
                 <div className="tag_text_in">#설립3년이하</div>
               </li>
 
-              <li className="tag_text">
-                {this.state.back && <div className="tag_text_in"> ㅎㅎ</div>}
-              </li>
+              {/* <li className="tag_text">
+                {this.state.tag && <div className="tag_text_in"> ㅎㅎ</div>}
+              </li> */}
             </ul>
           </div>
         </div>

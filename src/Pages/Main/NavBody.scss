@@ -54,13 +54,13 @@
   background-color: transparent;
   color: rgba(0, 0, 0, 0.4);
   z-index: 3;
-  left: 0;
+  left: -45px;
   @extend %btn-styles;
 }
 #goRight {
   background-color: transparent;
   color: rgba(0, 0, 0, 0.4);
   z-index: 3;
-  right: 0;
+  right: -45px;
   @extend %btn-styles;
 }
